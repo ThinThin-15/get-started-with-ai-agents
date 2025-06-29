@@ -32,7 +32,7 @@ export function StarterMessages({
           iconName={agentLogo}
         />
         <Subtitle1 className={styles.welcome}>
-          {agentName ? `Hello! I'm ${agentName}` : "Hello! How can I help you today?"}
+          {agentName ? `Hello! I'm ${agentName}` : "Hello this is Alfa SOC Agent and you can ask me regardning SOC operation?"}
         </Subtitle1>
         {agentDescription && (
           <Body1 className={styles.caption}>{agentDescription}</Body1>
